@@ -162,6 +162,21 @@ Combat between player forces is deliberate unless a specific card, Enemy, Event,
 
 This permits passage, diplomacy, temporary coexistence, threats, bluffing, and strategic positioning.
 
+## Digital Stack Presentation
+
+The canonical digital card and stack interaction language is defined in `canon/DIGITAL_CARD_STACK_LANGUAGE_CANON.md`.
+
+Key locked rules:
+
+- the card itself is display; the Player Console carries detailed live state;
+- the Active / Main Hero is always the leading anchor card and is shown by default;
+- stacks cascade down and to the right behind the Active Hero;
+- no ordinary stack member rests in front of the Active Hero;
+- first tap pulls any exposed card to the visual forefront as clean full-card art;
+- second tap transitions to the card's detailed stats / state view;
+- third tap dismisses it and restores its exact stack position;
+- temporarily foregrounding a card never changes its logical stack order.
+
 ---
 
 # 7. Movement
