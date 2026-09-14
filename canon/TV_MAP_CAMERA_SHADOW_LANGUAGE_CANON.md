@@ -5,12 +5,23 @@ _Date: 2026-09-14_
 
 ## Shared TV Board
 
-The shared TV uses a geographically recognizable but gameplay-optimized Middle-earth map.
+The shared TV uses a recognizable but aggressively gameplay-optimized Middle-earth map.
 
-- Preserve recognizable relative geography, terrain, mountain chains, forests, rivers, landmarks and regional relationships.
-- Distort scale and spacing where necessary to make all Greater Regions useful contiguous gameplay spaces.
+### Usable-Space Rule
+
+**The entire display should be useful game space.** Geographic fidelity is subordinate to gameplay density, readability and movement logic.
+
+- Coastline shape and surrounding ocean are not important unless a specific coastal feature becomes mechanically relevant.
+- Do not reserve large areas of the TV for oceans, empty wilderness, decorative margins or geographically accurate negative space that has no gameplay purpose.
+- Crop, compress, flatten, widen, rotate, distort or reposition geography as needed so the ten Greater Regions occupy the available display efficiently.
+- Preserve enough relative geography, major terrain relationships, mountain chains, forests, rivers, landmarks and adjacency to feel unmistakably like Middle-earth.
+- The map is not intended to be a navigationally accurate atlas. It is a **living strategy board derived from Middle-earth geography**.
 - Greater Regions are fully articulated illustrated territories, not abstract boxes or simple colored polygons.
-- At world scale, player forces are represented primarily by Hero portrait/head markers rather than full cards.
+- Each Greater Region should receive enough screen real estate for its internal Positions, Hero/company markers, Enemies, Lesser Locations, control state, corruption state and animated regional events.
+- Empty space is justified only when it improves gameplay readability or represents a mechanically meaningful barrier/route.
+
+At world scale, player forces are represented primarily by Hero portrait/head markers rather than full cards.
+
 - A Hero marker represents the Hero and the company/stack traveling with that Hero.
 - Public company size/state may be communicated compactly around the marker.
 - Selecting a Hero on the TV may expand that force into a clearly visible party tableau beneath/around the lead Hero without changing the underlying stack.
@@ -27,7 +38,7 @@ Canonical camera levels:
 
 Zooming reveals progressively richer public information rather than switching to an unrelated board. The world and region views are representations of the same authoritative game state.
 
-Region View may expose named locations, roads, terrain, Lesser Locations, separated forces, Enemies, encounters and environmental state that are summarized at world scale.
+Region View may expose named locations, internal Positions, roads, terrain, Lesser Locations, separated forces, Enemies, encounters and environmental state that are summarized at world scale.
 
 ## Progressive Shadow — Regions
 
@@ -82,7 +93,9 @@ Hero portrait markers on the TV should reflect meaningful corruption state so pl
 
 When the camera enters Region View, the richer corruption treatment becomes more visible. On the private Player Console, the full Hero card and stats/state view can show the most detailed version.
 
-## Design North Star
+## Design North Stars
+
+**Every meaningful part of the TV should earn its space as gameboard.**
 
 **Shadow should be seen consuming the world and its people before the numbers need to be read.**
 
