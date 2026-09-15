@@ -3,6 +3,16 @@
 _Status: CURRENT CANON_
 _Date: 2026-09-14_
 
+## Approved Visual Reference
+
+The canonical approved Companion Travel Map artwork is stored at:
+
+`art/reference/companion-travel-map/companion-travel-map-approved-v2.png`
+
+Asset blob SHA: `63882f9dff623ffc784a55cb6084f3de790ae99e`
+
+This exact asset is the visual reference for the Companion Travel Map. It must not be silently replaced by a regenerated concept. Any future approved revision receives a new versioned filename and requires an explicit canon decision.
+
 ## Purpose
 
 The clean framed schematic map is the canonical **Companion Travel Map** used on phones/tablets for choosing and planning regional movement.
